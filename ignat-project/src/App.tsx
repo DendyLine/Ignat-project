@@ -1,6 +1,6 @@
 import './App.css'
 import './assets/components'
-import {Header} from "./assets/components";
+import {Block1, Block2, Header} from "./assets/components";
 
 function App() {
 
@@ -8,6 +8,8 @@ function App() {
     <>
       <div>
           <Header/>
+          <Block1/>
+          <Block2/>
       </div>
     </>
   )
