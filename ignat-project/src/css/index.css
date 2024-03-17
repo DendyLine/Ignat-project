@@ -465,6 +465,152 @@ h4 {
   color: #4AAA4E;
 }
 
+.Block4 {
+  display: flex;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  height: auto;
+  width: 100vw;
+  padding: 0 100px;
+}
+.Block4 .Block4Content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-top: 1px #343434 solid;
+  margin-top: 110px;
+  padding: 100px 0;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.Block4 .Block4Content h2 {
+  color: #343434;
+}
+.Block4 .Block4Content .email {
+  display: flex;
+  justify-content: center;
+}
+.Block4 .Block4Content .email p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #343434;
+  width: 53%;
+}
+.Block4 .Block4Content .inputButton {
+  display: flex;
+  position: relative;
+}
+.Block4 .Block4Content .inputButton input {
+  width: 570px;
+  height: 12px;
+  border: 1px #626262 solid;
+  border-radius: 15px;
+  padding: 20px 20px 17px 17px;
+}
+.Block4 .Block4Content .inputButton input ::placeholder {
+  color: #959595;
+}
+.Block4 .Block4Content .inputButton .sub {
+  display: flex;
+  width: 165px;
+  height: 51px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #626262;
+  position: absolute;
+  left: 73%;
+  cursor: pointer;
+}
+
+.Block5 {
+  display: flex;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  height: 320px;
+  width: 100vw;
+  padding: 0 100px;
+  position: relative;
+  align-items: end;
+  gap: 3.3em;
+}
+.Block5 h5 {
+  position: absolute;
+  top: -50px;
+  color: #343434;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.Block5 .counter {
+  position: absolute;
+  top: 3%;
+  left: 82%;
+  color: #343434;
+}
+.Block5 .arrows {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 87.5%;
+  gap: 20px;
+}
+.Block5 .CommentCard {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 270px;
+  height: 250px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 34px;
+}
+.Block5 .CommentCard .user {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.Block5 .CommentCard .user .ava {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url("../../../public/pictures/muscularMan.jpeg") center no-repeat;
+  background-size: cover;
+}
+.Block5 .CommentCard .user .nickname {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: auto;
+  align-items: end;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: black;
+}
+.Block5 .CommentCard .user .nickname .mark {
+  position: absolute;
+  top: 3px;
+}
+.Block5 .CommentCard p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #626262;
+}
+
 :root {
   font-family: Inter, Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }

@@ -1,6 +1,6 @@
 import './App.css'
 import './assets/Blocks'
-import {Block1, Block2, Block3, Block4, Header} from "./assets/Blocks";
+import {Block1, Block2, Block3, Block4, Block5, Header} from "./assets/Blocks";
 
 function App() {
 
@@ -11,8 +11,8 @@ function App() {
           <Block1/>
           <Block2/>
           <Block3/>
-          <br/>
           <Block4/>
+          <Block5/>
       </div>
     </>
   )
