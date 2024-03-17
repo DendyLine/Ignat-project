@@ -1,0 +1,62 @@
+.Block3{
+  @include rectangle($white, 600px);
+  position: relative;
+  align-items: end;
+  gap: 1.5em;
+  h3{
+    position: absolute;
+    top: -7px;
+    color: $black80;
+  }
+  .arrows{
+    display: flex;
+    top: 3%;
+    left: 88%;
+    gap: 20px;
+    position: absolute;
+    img{
+      cursor: pointer;
+    }
+  }
+  .counter{
+    position: absolute;
+    top: 1.5%;
+    left: 80%;
+    color: $black80;
+  }
+  .ItemCard{
+    height: 546px;
+    width: 30vw;
+    max-width: 400px;
+    .image{
+      position: relative;
+      height: 450px;
+      width: 100%;
+      img{
+        position: absolute;
+        top: 3%;
+        left: 88%;
+        cursor: pointer;
+      }
+    }
+    .title{
+      color: $black80;
+    }
+    .description{
+      @include mainText;
+      p{
+        margin: 0;
+      }
+      color: $black60;
+    }
+    .price{
+      font-family: 'Roboto', Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0;
+      text-align: left;
+      color: $priceColor;
+    }
+  }
+}
