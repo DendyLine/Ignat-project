@@ -30,13 +30,15 @@
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 270px;
     height: 250px;
     border: 1px black solid;
     border-radius: 10px;
-    padding: 34px;
     .user{
       display: flex;
+      justify-content: center;
       width: 100%;
       gap: 15px;
       .ava{
@@ -65,6 +67,9 @@
       }
     }
     p{
+      display: flex;
+      justify-content: center;
+      width: 70%;
       font-family: 'Roboto', Arial, sans-serif;
       font-size: 16px;
       font-weight: 400;
