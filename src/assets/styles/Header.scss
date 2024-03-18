@@ -23,7 +23,9 @@
     align-items: center;
 
     a {
-      color: $black80
+      display: flex;
+      color: $black80;
+      align-items: center;
     }
 
     .logo {

@@ -8,7 +8,7 @@ export const Block3 = () => {
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: "public/pictures/manInWhiteSlim.png"
+            imgSrc: "/pictures/manInWhiteSlim.png"
         },
         {
             title: 'Майка для бодібілдерів',
@@ -36,7 +36,7 @@ export const Block3 = () => {
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: "public/pictures/manInWhiteSlim.png"
+            imgSrc: "/pictures/manInWhiteSlim.png"
         },
         {
             title: 'Майка для бодібілдерів',
@@ -64,7 +64,7 @@ export const Block3 = () => {
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: "public/pictures/manInWhiteSlim.png"
+            imgSrc: "/pictures/manInWhiteSlim.png"
         },
     ]
     const itemsPerPage = 3; // Кількість елементів, що відображаються на одній сторінці
@@ -101,13 +101,13 @@ export const Block3 = () => {
             <h3>Найгарячіші товари</h3>
             <div className='arrows'>
                 <img
-                    src='/icons/Arrow%202.png'
+                    src='/icons/Arrow%202.svg'
                     alt='arrowRight'
                     onClick={handlePrevClick}
                     style={{opacity: startIndex === 0 ? 0.5 : 1}}
                 />
                 <img
-                    src='/icons/Arrow%201.png'
+                    src='/icons/Arrow%201.svg'
                     alt='arrowLeft'
                     onClick={handleNextClick}
                     style={{opacity: startIndex + itemsPerPage >= info.length ? 0.5 : 1}}

@@ -71,10 +71,10 @@ export const Block5 = () => {
         <div className='Block5'>
             <h5>Відгуки наших клієнтів</h5>
             <div className='arrows'>
-                <img src='/icons/Arrow%202.png' alt='arrowRight'
+                <img src='/icons/Arrow%202.svg' alt='arrowRight'
                      onClick={() => paginate(currentPage - 1)}
                      style={{opacity: currentPage === 1 ? 0.5 : 1, cursor: currentPage === 1 ? '' : 'pointer'}}/>
-                <img src='/icons/Arrow%201.png' alt='arrowLeft' onClick={() => paginate(currentPage + 1)}
+                <img src='/icons/Arrow%201.svg' alt='arrowLeft' onClick={() => paginate(currentPage + 1)}
                      style={{
                          opacity: indexOfLastComment >= totalComments ? 0.5 : 1,
                          cursor: indexOfLastComment >= totalComments ? '' : 'pointer'
