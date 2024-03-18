@@ -1,0 +1,43 @@
+.Footer {
+  height: 400px;
+  border-top: 1px black solid;
+  margin-top: 200px;
+
+  .whiteBlock {
+    @include rectangle($white, 80%);
+    justify-content: space-between;
+    align-items: start;
+
+    .menu {
+      margin-top: 40px;
+
+      .title {
+        @include mainText;
+        color: $black80;
+        margin-bottom: 30px;
+      }
+
+      p {
+        @include mainText;
+        color: $black60;
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .BlackBlock {
+    @include rectangle($black80, 20%);
+    align-items: center;
+    justify-content: space-between;
+
+    .menu {
+      display: flex;
+      gap: 20px;
+
+      a {
+        @include mainText;
+        color: $white;
+      }
+    }
+  }
+}

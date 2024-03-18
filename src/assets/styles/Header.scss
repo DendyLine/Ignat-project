@@ -1,0 +1,67 @@
+.Header {
+  .middle {
+    @include rectangle($black80, 40px);
+    @include littleText;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      gap: 20px;
+
+      a {
+        color: $white
+      }
+    ;
+    }
+  }
+
+  .bottom {
+    @include rectangle($white, 65px);
+    @include mainText;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      color: $black80
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .searchbar {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+
+      .ico {
+        position: absolute;
+        margin-left: 10px;
+      }
+
+      input {
+        box-sizing: border-box;
+        width: 282px;
+        height: 40px;
+        background-color: $black10;
+        border: none;
+        border-radius: $radius;
+        padding: 0 40px;
+      }
+    }
+  }
+}

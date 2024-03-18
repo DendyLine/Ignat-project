@@ -1,0 +1,60 @@
+$black10: #E8E8E8;
+$black20: #CCCCCC;
+$black40: #959595;
+$black60: #626262;
+$black80: #343434;
+$black100: #000000;
+$priceColor: #4AAA4E;
+
+$white: #FFFFFF;
+$radius: 15px;
+
+@mixin mainText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+@mixin littleText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@mixin rectangle($bg,$height) {
+  display: flex;
+  box-sizing: border-box;
+  background: $bg;
+  height: $height;
+  width: 100vw;
+  padding: 0 100px;
+}
+
+@mixin button-base {
+  display: flex;
+  width: 165px;
+  height: 51px;
+  border-radius: $radius;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@import './assets/styles';
+
+:root {
+  font-family: Inter, Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  color: $white;
+  overflow-x: hidden;
+}
+
