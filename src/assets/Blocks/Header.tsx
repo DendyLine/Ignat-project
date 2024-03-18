@@ -14,9 +14,9 @@ export const Header = () => {
                     href='/acsessories'>АКСЕСУАРИ</a><a href='/discounts'>АКЦІЇ</a></div>
                 <div className='searchbar'>
                     <input type="text"/>
-                    <img className='ico' src='../../../public/icons/Vector.png' alt='search'/>
-                    <a href='/chosen'><img src='../../../public/icons/heart.png' alt="heart"/></a>
-                    <a href='/bag'><img src='../../../public/icons/bag.png' alt='bag'/></a>
+                    <img className='ico' src='../../../public/icons/search.svg' alt='search'/>
+                    <a href='/chosen'><img src='../../../public/icons/heart.svg' alt="heart"/></a>
+                    <a href='/bag'><img src='../../../public/icons/bag.svg' alt='bag'/></a>
                 </div>
             </div>
         </div>
