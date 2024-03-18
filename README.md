@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Ignat-Project
+this is Main front-end page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Contents
 
-Currently, two official plugins are available:
+- [Installation](#installation)
+- [Development](#development)
+- [Documentation](#documentation)
+- [Deployment](#deployment)
+- [Demo](#demo)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone repository and install dependencies:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone git@github.com:DendyLine/Ignat-project.git
+cd Ignat-project
+npm i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Development
+
+```bash
+npm run dev
+```
+access your application
+
+```
+http://localhost:5173
+```
+## Documentation
+
+i have all code in src. public for pictures/icons. src contain components(all blocks and their parts) and styles for them. Block1 have slider plug. If there was more pages, i would make it work. Block2 have simple structure and one reference. Block 3 have working slider, that counts and show 3 items per page. Block4 have input with button. Block5 have similar slider as in Block3. Footer has many references  
+
+## Deployment
+
+automaticaly by pushing to main
+
+## Demo
+
+[Link to netlify](https://main--kaleidoscopic-sorbet-02bdaa.netlify.app/)

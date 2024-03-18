@@ -9,7 +9,7 @@ export const Header = () => {
                 <div className='right'><a href='/logIn'>Увійти</a> / <a href='/signUp'>Зареєструватися</a></div>
             </div>
             <div className='bottom'>
-                <div className='logo'><a href='/main'><img src='/icons/Logo.png' alt='logo'/></a></div>
+                <div className='logo'><a href='/main'><img src='/icons/Logo.svg' alt='logo'/></a></div>
                 <div className='menu'><a href='/news'>НОВИНКИ</a><a href='/men'>ЧОЛОВІКИ</a><a href='/women'>ЖІНКИ</a><a
                     href='/acsessories'>АКСЕСУАРИ</a><a href='/discounts'>АКЦІЇ</a></div>
                 <div className='searchbar'>
