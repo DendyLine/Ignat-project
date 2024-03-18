@@ -32,7 +32,7 @@ export const Footer = () => {
             <div className='BlackBlock'>
                 <div className='menu'><a href='/news'>новинки</a><a href='/men'>чоловіки</a><a href='/women'>жінки</a><a
                     href='/acsessories'>аксесуари</a><a href='/discounts'>акції</a></div>
-                <img src='../../../public/icons/rights.png' alt='rights reserved'/>
+                <img src='../../assets/icons/rights.png' alt='rights reserved'/>
             </div>
         </div>
     )

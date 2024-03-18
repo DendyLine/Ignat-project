@@ -9,14 +9,14 @@ export const Header = () => {
                 <div className='right'><a href='/logIn'>Увійти</a> / <a href='/signUp'>Зареєструватися</a></div>
             </div>
             <div className='bottom'>
-                <div className='logo'><img src='../../../public/icons/Logo.png' alt='logo'/></div>
+                <div className='logo'><img src='../../assets/icons/Logo.png' alt='logo'/></div>
                 <div className='menu'><a href='/news'>НОВИНКИ</a><a href='/men'>ЧОЛОВІКИ</a><a href='/women'>ЖІНКИ</a><a
                     href='/acsessories'>АКСЕСУАРИ</a><a href='/discounts'>АКЦІЇ</a></div>
                 <div className='searchbar'>
                     <input type="text"/>
-                    <img className='ico' src='../../../public/icons/search.svg' alt='search'/>
-                    <a href='/chosen'><img src='../../../public/icons/heart.svg' alt="heart"/></a>
-                    <a href='/bag'><img src='../../../public/icons/bag.svg' alt='bag'/></a>
+                    <img className='ico' src='../../assets/icons/search.svg' alt='search'/>
+                    <a href='/chosen'><img src='../../assets/icons/heart.svg' alt="heart"/></a>
+                    <a href='/bag'><img src='../../assets/icons/bag.svg' alt='bag'/></a>
                 </div>
             </div>
         </div>

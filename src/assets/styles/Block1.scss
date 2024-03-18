@@ -1,5 +1,5 @@
 .Block1 {
-  @include rectangle(url('../../../public/pictures/muscularMan.jpeg') no-repeat bottom fixed, 500px);
+  @include rectangle(url('../pictures/muscularMan.jpeg') no-repeat bottom fixed, 500px);
   background-size: 100% auto;
   position: relative;
 
@@ -46,7 +46,7 @@
 
 
 .Block1Page {
-  @include rectangle(url('../../../public/pictures/muscularMan.jpeg') no-repeat bottom fixed, 500px);
+  @include rectangle(url('../pictures/muscularMan.jpeg') no-repeat bottom fixed, 500px);
   background-size: 100% auto;
 
   .left {

@@ -11,7 +11,7 @@ export const ItemCard = (props: IItemCardProps) => {
         <div className='ItemCard'>
             <div className='image'
                  style={{background: `url(${props.imageUrl}) center no-repeat`, backgroundSize: "cover"}}>
-                <div className='heart'><img src='../../../public/icons/Vector.svg' alt='heart'/></div>
+                <div className='heart'><img src='../assets/icons/Vector.svg' alt='heart'/></div>
             </div>
             <div className='title'><h4>{props.title}</h4></div>
             <div className='description'>

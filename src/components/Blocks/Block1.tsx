@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Block1Page} from '../components/Block1Page.tsx';
+import {Block1Page} from '../Block1Page.tsx';
 
 export const Block1 = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,9 +24,9 @@ export const Block1 = () => {
             {currentIndex === 2 && <Block1Page/>}
 
             <div className="arrows">
-                <img src='../../../public/icons/Arrow%20Left.png' alt='arrowLeft'
+                <img src='../../assets/icons/Arrow%20Left.png' alt='arrowLeft'
                      onClick={() => handleArrowClick('left')}/>
-                <img src='../../../public/icons/Arrow%20Right.png' alt='arrowRight'
+                <img src='../../assets/icons/Arrow%20Right.png' alt='arrowRight'
                      onClick={() => handleArrowClick('right')}/>
             </div>
             <div className='mini-bricks'>

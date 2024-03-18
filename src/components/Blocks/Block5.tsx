@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {CommentCard} from "../components/CommentCard.tsx";
+import {CommentCard} from "../CommentCard.tsx";
 
 export const Block5 = () => {
     const feedback = [
@@ -71,10 +71,10 @@ export const Block5 = () => {
         <div className='Block5'>
             <h5>Відгуки наших клієнтів</h5>
             <div className='arrows'>
-                <img src='../../../public/icons/Arrow%202.png' alt='arrowRight'
+                <img src='../../assets/icons/Arrow%202.png' alt='arrowRight'
                      onClick={() => paginate(currentPage - 1)}
                      style={{opacity: currentPage === 1 ? 0.5 : 1, cursor: currentPage === 1 ? '' : 'pointer'}}/>
-                <img src='../../../public/icons/Arrow%201.png' alt='arrowLeft' onClick={() => paginate(currentPage + 1)}
+                <img src='../../assets/icons/Arrow%201.png' alt='arrowLeft' onClick={() => paginate(currentPage + 1)}
                      style={{
                          opacity: indexOfLastComment >= totalComments ? 0.5 : 1,
                          cursor: indexOfLastComment >= totalComments ? '' : 'pointer'
