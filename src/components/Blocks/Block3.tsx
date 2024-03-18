@@ -101,13 +101,13 @@ export const Block3 = () => {
             <h3>Найгарячіші товари</h3>
             <div className='arrows'>
                 <img
-                    src='/icons/Arrow%202.svg'
+                    src='/icons/ArrowLeft.svg'
                     alt='arrowRight'
                     onClick={handlePrevClick}
                     style={{opacity: startIndex === 0 ? 0.5 : 1}}
                 />
                 <img
-                    src='/icons/Arrow%201.svg'
+                    src='/icons/ArrowRight.svg'
                     alt='arrowLeft'
                     onClick={handleNextClick}
                     style={{opacity: startIndex + itemsPerPage >= info.length ? 0.5 : 1}}
