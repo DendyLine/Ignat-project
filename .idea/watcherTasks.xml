@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions" suppressed-tasks="SCSS">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="index.SCSS:/Users/dandy_line/WebstormProjects/Ignat/ignat-project/src/css/index.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
