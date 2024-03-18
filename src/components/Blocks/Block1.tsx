@@ -24,9 +24,9 @@ export const Block1 = () => {
             {currentIndex === 2 && <Block1Page/>}
 
             <div className="arrows">
-                <img src='../../assets/icons/Arrow%20Left.png' alt='arrowLeft'
+                <img src='/icons/Arrow%20Left.png' alt='arrowLeft'
                      onClick={() => handleArrowClick('left')}/>
-                <img src='../../assets/icons/Arrow%20Right.png' alt='arrowRight'
+                <img src='/icons/Arrow%20Right.png' alt='arrowRight'
                      onClick={() => handleArrowClick('right')}/>
             </div>
             <div className='mini-bricks'>

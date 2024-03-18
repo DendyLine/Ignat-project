@@ -1,8 +1,6 @@
 import {ItemCard} from "../ItemCard.tsx";
 import {useEffect, useState} from "react";
-import manInWhiteSlim from "../../assets/pictures/manInWhiteSlim.png"
-import femaleFighter from "../../assets/pictures/femaleFighter.png"
-import chainMan from "../../assets/pictures/chainMan.jpeg"
+
 export const Block3 = () => {
     const info = [
         {
@@ -10,63 +8,63 @@ export const Block3 = () => {
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: manInWhiteSlim
+            imgSrc: "public/pictures/manInWhiteSlim.png"
         },
         {
             title: 'Майка для бодібілдерів',
             section: 'Для жінок',
             params: '6 кольорів',
             price: '1100 грн',
-            imgSrc: femaleFighter
+            imgSrc: "/pictures/femaleFighter.png"
         },
         {
             title: 'Ланцюжок для бодібілдерів',
             section: 'Аксесуари',
             params: '30 кг.',
             price: '2000 грн',
-            imgSrc: chainMan
+            imgSrc: "/pictures/chainMan.jpeg"
         },
         {
             title: 'Ланцюжок для бодібілдерів',
             section: 'Аксесуари',
             params: '30 кг.',
             price: '2000 грн',
-            imgSrc: chainMan
+            imgSrc: "/pictures/chainMan.jpeg"
         },
         {
             title: 'Термобілизна для бодібілдерів',
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: manInWhiteSlim
+            imgSrc: "public/pictures/manInWhiteSlim.png"
         },
         {
             title: 'Майка для бодібілдерів',
             section: 'Для жінок',
             params: '6 кольорів',
             price: '1100 грн',
-            imgSrc: femaleFighter
+            imgSrc: "/pictures/femaleFighter.png"
         },
         {
             title: 'Майка для бодібілдерів',
             section: 'Для жінок',
             params: '6 кольорів',
             price: '1100 грн',
-            imgSrc: femaleFighter
+            imgSrc: "/pictures/femaleFighter.png"
         },
         {
             title: 'Ланцюжок для бодібілдерів',
             section: 'Аксесуари',
             params: '30 кг.',
             price: '2000 грн',
-            imgSrc: chainMan
+            imgSrc: "/pictures/chainMan.jpeg"
         },
         {
             title: 'Термобілизна для бодібілдерів',
             section: 'Для чоловіків',
             params: '2 кольори',
             price: '4000 грн',
-            imgSrc: manInWhiteSlim
+            imgSrc: "public/pictures/manInWhiteSlim.png"
         },
     ]
     const itemsPerPage = 3; // Кількість елементів, що відображаються на одній сторінці
@@ -103,13 +101,13 @@ export const Block3 = () => {
             <h3>Найгарячіші товари</h3>
             <div className='arrows'>
                 <img
-                    src='../../assets/icons/Arrow%202.png'
+                    src='/icons/Arrow%202.png'
                     alt='arrowRight'
                     onClick={handlePrevClick}
                     style={{opacity: startIndex === 0 ? 0.5 : 1}}
                 />
                 <img
-                    src='../../assets/icons/Arrow%201.png'
+                    src='/icons/Arrow%201.png'
                     alt='arrowLeft'
                     onClick={handleNextClick}
                     style={{opacity: startIndex + itemsPerPage >= info.length ? 0.5 : 1}}
